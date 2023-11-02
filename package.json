@@ -1,0 +1,59 @@
+{
+  "name": "@rbxts/shrouvengine",
+  "version": "1.0.0",
+  "description": "Shrouv Engine is the engine powering all experiences made by Sunbear Studios",
+  "main": "out/init.lua",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.1.0-types.1",
+    "@rbxts/types": "^1.0.729",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-roblox-ts": "^0.0.36",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@rbxts/easing-functions": "^1.1.0",
+    "@rbxts/fusion": "^0.2.0",
+    "@rbxts/log": "^0.6.3",
+    "@rbxts/maid": "^1.1.0",
+    "@rbxts/matter": "^0.6.4",
+    "@rbxts/matter-hooks": "^0.1.1",
+    "@rbxts/net": "^3.0.7",
+    "@rbxts/plasma": "^0.4.1-ts.1",
+    "@rbxts/pretty-react-hooks": "^0.3.3",
+    "@rbxts/profileservice": "^1.4.2",
+    "@rbxts/promise-character": "^1.0.3",
+    "@rbxts/react-reflex": "^0.2.0",
+    "@rbxts/react-roblox": "^0.2.0",
+    "@rbxts/reflex": "^4.2.2",
+    "@rbxts/rewire": "^0.3.0",
+    "@rbxts/roact": "npm:@rbxts/react-ts@^0.9.0",
+    "@rbxts/rust-classes": "^0.12.0",
+    "@rbxts/services": "^1.5.1",
+    "@rbxts/set-timeout": "^1.1.2",
+    "@rbxts/stacks-and-queues": "^1.0.5",
+    "@rbxts/t": "^3.1.0",
+    "@rbxts/tween": "^1.0.5",
+    "@rbxts/variant": "^1.0.2"
+  }
+}
