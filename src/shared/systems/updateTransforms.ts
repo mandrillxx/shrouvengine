@@ -56,4 +56,5 @@ function updateTransforms(world: World) {
 export = {
 	event: RunService.IsClient() ? "fixed" : "default",
 	system: updateTransforms,
+	ringg: "ring",
 };
